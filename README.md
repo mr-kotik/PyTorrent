@@ -3,7 +3,7 @@
 
 
 PyTorrent is a CLI tool that downloads files from the **BitTorrent** network.
-
+This fork ports the project to Python 3.x, introduces optimizations and improvements.
 I wanted to make my own functional and straightforward program to learn how does BitTorrent protocol work and improve my python skills.
 
 It is almost written from scratch with python 3.7, only the pubsub library was used to create events when a new peer is connected, or when data is received from a peer.
